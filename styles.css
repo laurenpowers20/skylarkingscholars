@@ -1,0 +1,106 @@
+html {
+    background: url("images/star.gif") no-repeat center center fixed;
+    background-color: #000;
+    background-size: cover;
+    font-family: 'Monoton', cursive;
+    color:white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+a:hover {
+  color: purple;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  display: block; 
+  text-align: center;
+  clear: both;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+ul {
+  text-align: 
+}
+
+
+ul li {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 20px; 
+}
+
+
+.header {
+  width: 100%; 
+  clear: both;
+}
+
+
+.mouse {
+  display: none;
+  font-size: 15px;
+  float: left;
+  cursor: pointer;
+}
+
+.footer {
+  color: gray;
+  text-align: center;
+}
+
+.thumbnail {
+  width: 200px;
+  margin: 10px;
+}
+
+.socialmedia {
+  float: left;
+  height: 100px;
+  text-align: center;
+  width:100%;
+  margin: 10px;
+  clear:both;
+}
+
+.contact {
+  padding: 10px;
+}
+
+ @media (max-width: 800px) {
+        .mouse {
+          font-size: 15px;
+          display: block;
+          text-align: center;
+          width:100%;
+          padding-bottom: 10px;
+        }
+
+        ul {
+          display: none;
+          width: 100%;
+          margin-left: -50px;
+        }
+
+        ul li {
+          width: 100%;
+        }
+
+        .thumbnail {
+          width: 150px;
+          margin: 4px;
+        }
+      }
