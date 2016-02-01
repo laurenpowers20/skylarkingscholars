@@ -2,7 +2,7 @@ html {
     background: url("images/star.gif") no-repeat center center fixed;
     background-color: #000;
     background-size: cover;
-    font-family: 'Monoton', cursive;
+    /*font-family: 'Monoton', cursive;*/
     color:white;
     text-align: center;
 }
@@ -22,13 +22,18 @@ a:hover {
   color: #2226A9;
 }
 
+.header {
+  width: 100%; 
+  clear: both;
+  font-family: 'Codystar', cursive;
+}
+
 nav {
   float: left;
   width: 100%;
   display: block; 
   text-align: center;
   clear: both;
-  font-family: 'Amatic SC', cursive;
 }
 
 
@@ -43,12 +48,26 @@ ul li {
   margin-right: 20px; 
 }
 
-
-.header {
-  width: 100%; 
-  clear: both;
+.navabout {
+  font-family: 'Raleway Dots', cursive;
+  
 }
 
+.navblog {
+  font-family: 'Monoton', cursive;
+}
+
+.navphoto {
+  font-family: 'Londrina Sketch', cursive;
+}
+
+.navsadsnapchat {
+  font-family: 'Amatic SC', cursive;
+}
+
+.navtroll {
+  font-family: 'Creepster', cursive;
+}
 
 .mouse {
   display: none;
@@ -104,3 +123,18 @@ ul li {
           margin: 4px;
         }
       }
+
+
+      /*
+font-family: 'Codystar', cursive;
+
+font-family: 'Raleway Dots', cursive;
+
+font-family: 'Nosifer', cursive;
+
+font-family: 'Londrina Sketch', cursive;
+
+font-family: 'Monoton', cursive;
+
+font-family: 'Amatic SC', cursive;
+*/
