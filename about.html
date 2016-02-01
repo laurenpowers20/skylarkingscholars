@@ -10,6 +10,8 @@
             <link rel="stylesheet" type="text/css" href="styles.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">    
             <link rel="shortcut icon" href="images/bolticon.png" type="image/ico" />
+            <link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick.css"/>
+            <link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick-theme.css"/>
         </head>
         <body>
         <div class="header">
@@ -28,45 +30,65 @@
                       <li class = "navtroll"><a href="blog.html">Gremmo's Troll of the Day</a></li>
                   </ul>
               </nav>
+            <div class ="slider">
+                 <div class ="bio">
+                      <h2>Maggie Rose Melito</h2>
+                          <p> Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
+                      <div class ="bioimage">
+                      <img src ="images/maggie.jpg">
+                    </div>
+                  </div>
 
-              <div class ="bio">
-                  <h2>Maggie Rose Melito</h2>
-                  <p> Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
-                  <img src ="images/maggie.jpg">
-              </div>
+                  <div class ="bio">
+                      <h2>Tommi Grace Melito</h2>
+                          <p> Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
+                      
+                      <img src ="images/tommigrace.jpg">
+                  </div>
 
-              <div class ="bio">
-                  <h2>Tommi Grace Melito</h2>
-                  <p> Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
-                  <img src ="images/tommigrace.jpg">
-              </div>
+                  <div class ="bio">
+                      <h2>Andrea Menchini</h2>
+                        <p> Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam 
+                        </p>
+                  
+                      <img src ="images/andrea.jpg">
+                  </div>
 
-              <div class ="bio">
-                  <h2>Andrea Menchini</h2>
-                  <p> Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
-                  <img src ="images/andrea.jpg">
-              </div>
+                    <div class ="bio">
+                      <h2>Lauren Powers</h2>
+                          <p> Web Devloper Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                          </p>
+                      <img src ="images/lauren.jpg">
+                  </div>
+            </div>
 
-                <div class ="bio">
-                  <h2>Lauren Powers</h2>
-                  <p> Bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
-                  <img src ="images/lauren.jpg">
-              </div>
-
-
-
+              <div class ="footer">
+                <h5><i class="fa fa-copyright"></i> Skylarking Scholar 2016</h5>
+                <h5>Website Design by Lauren Powers</h5>
+              </div> 
 
 
-               <script>
+       
+        <script type="text/javascript" src="slick-1.5.9/slick/slick.min.js"></script>
+
+               <script type="text/javascript">
+                            
               $(document).ready(function(){
               $(".header").hide().fadeIn(2000);
                });
 
              $(document).ready(function() {
              $("ul li a").mouseenter(function() {
-              $(this).css({
-               
+              $(this).css({  
               });
+
+            $('.slider').slick({
+              dots: true,
+              infinite: true,
+              speed: 300,
+              slidesToShow: 1,
+              adaptiveHeight: true
+            });
             });
 
             $("ul li a").mouseleave(function() {

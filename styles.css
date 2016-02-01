@@ -2,7 +2,7 @@ html {
     background: url("images/star.gif") no-repeat center center fixed;
     background-color: #000;
     background-size: cover;
-    /*font-family: 'Monoton', cursive;*/
+    font-family: 'Raleway Dots', cursive;
     color:white;
     text-align: center;
 }
@@ -50,22 +50,17 @@ ul li {
 }
 
 .navabout {
-  font-family: 'Raleway Dots', cursive;
-  
+  font-family: 'Raleway Dots', cursive; 
 }
-
 .navblog {
   font-family: 'Monoton', cursive;
 }
-
 .navphoto {
   font-family: 'Londrina Sketch', cursive;
 }
-
 .navsadsnapchat {
   font-family: 'Amatic SC', cursive;
 }
-
 .navtroll {
   font-family: 'Creepster', cursive;
 }
@@ -77,10 +72,6 @@ ul li {
   cursor: pointer;
 }
 
-.footer {
-  color: gray;
-  text-align: center;
-}
 
 .thumbnail {
   width: 200px;
@@ -89,16 +80,29 @@ ul li {
 
 .bio {
   display: inline-block;
-  font-family: 'Raleway Dots', cursive;
   width: 20%;
   padding: 2px;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
   
 }
 
+ /*.toggle1, .toggle2,
+ .toggle3, .toggle4 {
+    width: 100px;
+    height: 100px;
+  }*/
 
-.contact {
-  padding: 10px;
+.space{
+  height: 250px;
+  clear:both;
+}
+
+
+.footer {
+  text-align: center;
+  font-family: 'Codystar', cursive;
 }
 
  @media (max-width: 800px) {
